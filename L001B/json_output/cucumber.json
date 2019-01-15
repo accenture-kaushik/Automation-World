@@ -1,0 +1,345 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 285631,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108848,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setupExtended()"
+            }
+          },
+          {
+            "result": {
+              "duration": 407164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.beforeHomePage()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "1-Login UserId and Password",
+        "description": "",
+        "id": "login-to-free-crm-website;1-login-userid-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 139643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 107324761,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Login Page of Free CRM",
+            "match": {
+              "location": "ApplicationTestUsingTags.user_is_on_Login_Page_of_Free_CRM()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FirstHook"
+          },
+          {
+            "line": 4,
+            "name": "@Basic"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 320389,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 195801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setupExtended()"
+            }
+          },
+          {
+            "result": {
+              "duration": 682605,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.beforecalenderPage()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "2-Home Page verification",
+        "description": "",
+        "id": "login-to-free-crm-website;2-home-page-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 83552,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37571,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Home page of Free CRM",
+            "match": {
+              "location": "ApplicationTestUsingTags.user_is_on_Home_page_of_Free_CRM()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@SecondHook"
+          },
+          {
+            "line": 9,
+            "name": "@Basic"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1142599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1074190,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setupExtended()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "3-Calender Page verification",
+        "description": "",
+        "id": "login-to-free-crm-website;3-calender-page-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 690870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35591,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on calender page of Free CRM",
+            "match": {
+              "location": "ApplicationTestUsingTags.user_is_on_calender_page_of_Free_CRM()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Basic"
+          },
+          {
+            "line": 13,
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 422782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 264837,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setupExtended()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "4-Companies Page verification",
+        "description": "",
+        "id": "login-to-free-crm-website;4-companies-page-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 649602,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108395,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on companies page of Free CRM",
+            "match": {
+              "location": "ApplicationTestUsingTags.user_is_on_companies_page_of_Free_CRM()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Basic"
+          },
+          {
+            "line": 17,
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 767682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 237191,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.setupExtended()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "6-Deals Page verification",
+        "description": "",
+        "id": "login-to-free-crm-website;6-deals-page-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 825200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ApplicationTestUsingTags.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78559,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is on deals page of Free CRM",
+            "match": {
+              "location": "ApplicationTestUsingTags.user_is_on_deals_page_of_Free_CRM()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@Basic"
+          },
+          {
+            "line": 25,
+            "name": "@Advanced"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Free CRM website",
+    "description": "",
+    "id": "login-to-free-crm-website",
+    "keyword": "Feature",
+    "uri": "/Users/kaushikmajumder/Feb2018/L001B/src/main/java/com/feature/files/ApplicationTestUsingTags.feature"
+  }
+]
