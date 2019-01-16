@@ -16,3 +16,4 @@ Examples:
 |	uname	|	pword	|	firstname	|	lastname	|	position |
 |	naveenk	|	test@123|	kaushik		|	majumder	|	Team Lead |
 |	admin	|	admin	|	prateek		|	asthana		|	Team Lead|
+| test | test | kaushik | majumder | Associate Manager | 
