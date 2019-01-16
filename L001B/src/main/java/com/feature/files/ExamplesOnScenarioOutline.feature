@@ -9,6 +9,7 @@ Then User clicks on Login
 Then User moves to Contacts and New Contact
 Then User enter contact details "<firstname>" and "<lastname>" and "<position>"
 Then Close the Browser
+Then Quit Browser
 
 
 Examples:
