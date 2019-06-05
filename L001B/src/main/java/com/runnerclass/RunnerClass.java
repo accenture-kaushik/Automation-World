@@ -18,12 +18,13 @@ import cucumber.api.junit.Cucumber;
 		//{"@Something1, @Something2"} = Something OR Something tag scenarios
 		//{"~@Something3"} = Ignore scenarios with such tags
 		
-		features= "/Users/kaushikmajumder/Feb2018/L001B/src/main/java/com/feature/files/ApplicationTestUsingTags.feature"
-		,glue= {"com.stepdefinition.selenium"}
+
+		features="/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/LearningBackground_Multiple.feature"
+		,glue= {"com.stepdefinition.select"}
 		,monochrome = true
 		,dryRun=false
-		,strict=true
-		,tags= {"@Basic"}
+//		,strict=true
+//		,tags= {"@Basic"}
 		,format= {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:juint_xml/cucumber.xml"}
 		)
 
