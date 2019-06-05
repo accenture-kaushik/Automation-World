@@ -19,12 +19,12 @@ import cucumber.api.junit.Cucumber;
 		//{"~@Something3"} = Ignore scenarios with such tags
 		
 
-		features="/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/LearningBackground_Multiple.feature"
+		features="/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/LearningBackground.feature"
 		,glue= {"com.stepdefinition.select"}
 		,monochrome = true
 		,dryRun=false
 //		,strict=true
-//		,tags= {"@Basic"}
+//		,tags= {"@Basic", "@Extensive"}
 		,format= {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:juint_xml/cucumber.xml"}
 		)
 

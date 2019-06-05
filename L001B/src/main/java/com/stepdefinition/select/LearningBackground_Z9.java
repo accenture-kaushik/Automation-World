@@ -24,7 +24,40 @@ import junit.framework.Assert;
 //Console shows details about the class.method that has been implemented 
 
 public class LearningBackground_Z9 {
- 
+// *************** Global Hooks ********************************//
+//No Change in feature file and runner class
+@Before
+public void setUp() {
+	
+	System.out.println("This is Setup Step from @Before Hook");
+}
+
+@After(order = 0) //This After will be implemented after first. order of imple - 3, 2, 1, 0
+public void endTest() {
+	System.out.println("This is End Step from @After Hook");
+	
+}
+@After(order = 1) //This after will be implemented first
+public void endApplication() {
+	System.out.println("This is End Application from @After Hook");
+	
+} 
+//*************** Global Hooks ********************************//
+
+
+
+//*************** Local Hooks ********************************//
+//Change required in the feature file to mention the hooks for each scenario
+
+@Before("@First")
+public void setUpForScenario_1() {
+	
+	System.out.println("This is Setup Step from @Before Hook for Scenario 1 only");
+}
+
+//*************** Local Hooks ********************************//
+
+
 //Inline Data Table without header
 //Every line will follow with the data and read from step definition for that method
 @Given("^Person stays in Magarpatta$") 
