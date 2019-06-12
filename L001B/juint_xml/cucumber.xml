@@ -1,22 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.115884">
-<testcase classname="Login to Free CRM website" name="1-Login UserId and Password" time="0.108266">
-<system-out><![CDATA[Given User is on Login Page of Free CRM.....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Login to Free CRM website" name="2-Home Page verification" time="0.00132">
-<system-out><![CDATA[Given User is on Home page of Free CRM......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Login to Free CRM website" name="3-Calender Page verification" time="0.002943">
-<system-out><![CDATA[Given User is on calender page of Free CRM..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Login to Free CRM website" name="4-Companies Page verification" time="0.001446">
-<system-out><![CDATA[Given User is on companies page of Free CRM.................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Login to Free CRM website" name="6-Deals Page verification" time="0.001909">
-<system-out><![CDATA[Given User is on deals page of Free CRM.....................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.158427">
+<testcase classname="TestNG with Cucumber" name="TestNG methods will be run with Cucumber runner" time="0.158427">
+<system-out><![CDATA[Given I am on logon page....................................................passed
+And I have entered ID and Password..........................................passed
+Then I will logon to website................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite"  verbose="1" thread-count="5" configfailurepolicy="continue">
+  <test name="Login">
+    <classes>
+      <class name="com.runnerclass.TestNG_Cucumber_Runner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
