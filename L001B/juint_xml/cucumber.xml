@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.246699">
-<testcase classname="This is a simple scenario used for reporting" name="Printing logs" time="0.246699">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.976956">
+<testcase classname="This is a simple scenario used for reporting" name="Printing logs" time="0.142373">
 <system-out><![CDATA[Given I have testing report.................................................passed
 Then I have to print custom report..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This is a simple scenario used for reporting" name="Launching google and taking screen shot" time="3.834583">
+<system-out><![CDATA[Given Launch Google.........................................................passed
+Then validate that google is launch correct.................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

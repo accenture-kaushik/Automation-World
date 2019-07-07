@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3832759,
+              "duration": 329367,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 86519,
+              "duration": 83331,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 75084,
+              "duration": 62799,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "steps": [
           {
             "result": {
-              "duration": 242642570,
+              "duration": 141436197,
               "status": "passed"
             },
             "line": 3,
@@ -55,13 +55,78 @@
           },
           {
             "result": {
-              "duration": 62309,
+              "duration": 461122,
               "status": "passed"
             },
             "line": 4,
             "name": "I have to print custom report",
             "match": {
               "location": "SimpleStepDef_Reporting.i_have_to_print_custom_report()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 168218,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LearningBackground_Z9.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Launching google and taking screen shot",
+        "description": "",
+        "id": "this-is-a-simple-scenario-used-for-reporting;launching-google-and-taking-screen-shot",
+        "after": [
+          {
+            "result": {
+              "duration": 107417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LearningBackground_Z9.endApplication()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LearningBackground_Z9.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3824051783,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch Google",
+            "match": {
+              "location": "SimpleStepDef_Reporting.launch_Google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10185566,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate that google is launch correct",
+            "match": {
+              "location": "SimpleStepDef_Reporting.validate_that_google_is_launch_correct()"
             },
             "keyword": "Then "
           }

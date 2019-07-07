@@ -1,6 +1,13 @@
 package com.runnerclass;
 
+import java.io.File;
+
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
+
+import com.cucumber.listener.Reporter;
+import com.manager.FileReaderManager;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
@@ -18,7 +25,7 @@ import cucumber.api.junit.Cucumber;
 		//{"@Something1, @Something2"} = Something OR Something tag scenarios
 		//{"~@Something3"} = Ignore scenarios with such tags
 		
-
+		
 		features="/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/Simple.feature"
 		,glue= {"com.stepdefinition.select"}
 		,monochrome = true
@@ -26,9 +33,15 @@ import cucumber.api.junit.Cucumber;
 //		,strict=true
 //		,tags= {"@Basic", "@Extensive"}
 		,format= {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:juint_xml/cucumber.xml"}
+		,plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
 		)
 
 
 public class RunnerClass {
 
+	@AfterClass
+	public static void writeExtentReport() {
+		Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getExtentReportConfigPath()));
+	}
+	
 }

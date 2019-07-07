@@ -1,2 +1,4 @@
-2019-07-07 13:17:11,736  INFO [main] Log:12 - Log Message: Printing #1
+2019-07-07 16:14:13,202  INFO [main] Log:12 - Log Message: Printing #1 Statement
+ 2019-07-07 16:14:13,223  INFO [main] Log:12 - Log Message: Printing #2 Statement
+ 2019-07-07 16:14:17,050  INFO [main] Log:12 - Log Message: Launched Chrome and navigating to Google
  
