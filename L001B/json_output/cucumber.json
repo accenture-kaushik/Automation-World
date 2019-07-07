@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 418552,
+              "duration": 3832759,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 3,
-        "name": "TestNG methods will be run with Cucumber runner",
+        "line": 2,
+        "name": "Printing logs",
         "description": "",
-        "id": "testng-with-cucumber;testng-methods-will-be-run-with-cucumber-runner",
+        "id": "this-is-a-simple-scenario-used-for-reporting;printing-logs",
         "after": [
           {
             "result": {
-              "duration": 112373,
+              "duration": 86519,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 67616,
+              "duration": 75084,
               "status": "passed"
             },
             "match": {
@@ -43,47 +43,35 @@
         "steps": [
           {
             "result": {
-              "duration": 157254044,
+              "duration": 242642570,
               "status": "passed"
             },
-            "line": 4,
-            "name": "I am on logon page",
+            "line": 3,
+            "name": "I have testing report",
             "match": {
-              "location": "TestNG_Cucumber.i_am_on_logon_page()"
+              "location": "SimpleStepDef_Reporting.i_have_testing_report()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 100762,
+              "duration": 62309,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I have entered ID and Password",
+            "line": 4,
+            "name": "I have to print custom report",
             "match": {
-              "location": "TestNG_Cucumber.i_have_entered_ID_and_Password()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 473559,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I will logon to website",
-            "match": {
-              "location": "TestNG_Cucumber.i_will_logon_to_website()"
+              "location": "SimpleStepDef_Reporting.i_have_to_print_custom_report()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "TestNG with Cucumber",
+    "name": "This is a simple scenario used for reporting",
     "description": "",
-    "id": "testng-with-cucumber",
+    "id": "this-is-a-simple-scenario-used-for-reporting",
     "keyword": "Feature",
-    "uri": "/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/TestNG_Cucumber.feature"
+    "uri": "/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/Simple.feature"
   }
 ]

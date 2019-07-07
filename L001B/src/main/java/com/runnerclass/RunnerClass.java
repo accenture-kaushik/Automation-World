@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 		//{"~@Something3"} = Ignore scenarios with such tags
 		
 
-		features="/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/TestNG_Cucumber.feature"
+		features="/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/Simple.feature"
 		,glue= {"com.stepdefinition.select"}
 		,monochrome = true
 		,dryRun=false

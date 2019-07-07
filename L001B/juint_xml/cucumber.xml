@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.158427">
-<testcase classname="TestNG with Cucumber" name="TestNG methods will be run with Cucumber runner" time="0.158427">
-<system-out><![CDATA[Given I am on logon page....................................................passed
-And I have entered ID and Password..........................................passed
-Then I will logon to website................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.246699">
+<testcase classname="This is a simple scenario used for reporting" name="Printing logs" time="0.246699">
+<system-out><![CDATA[Given I have testing report.................................................passed
+Then I have to print custom report..........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]">
-  <test name="Login">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.runnerclass.TestNG_Cucumber_Runner"/>
+      <class name="com.stepdefinition.select.TabOffForAjaxCalls"/>
     </classes>
-  </test> <!-- Login -->
-  <test name="Login(failed)">
-    <classes>
-      <class name="com.runnerclass.TestNG_Cucumber_Runner">
-        <methods>
-          <include name="login"/>
-          <include name="setUP"/>
-        </methods>
-      </class> <!-- com.runnerclass.TestNG_Cucumber_Runner -->
-    </classes>
-  </test> <!-- Login(failed) -->
-</suite> <!-- Failed suite [BDD Test Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

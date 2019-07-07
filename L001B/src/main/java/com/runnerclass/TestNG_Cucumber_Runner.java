@@ -13,6 +13,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 
 
+
 	@CucumberOptions(
 			features="/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/TestNG_Cucumber.feature"
 			,glue={"com.stepdefinition.select"}
@@ -27,22 +28,22 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 		private TestNGCucumberRunner testRunner;
 
-		@BeforeClass
-		public void setUP()
-		{			
+		@BeforeClass(alwaysRun=true)
+		public void setUpClass() throws Exception
+		{	System.out.println(" inside setup");
 			testRunner = new TestNGCucumberRunner(this.getClass());
 		}
 		
 		
 		@Test(description="Run Login With TestNG Cucumber",dataProvider="features")
 		public void login(CucumberFeatureWrapper cFeature)
-		{
+		{   System.out.println("inside test");
 			testRunner.runCucumber(cFeature.getCucumberFeature());
 		}
 		
 		
-		@DataProvider(name="features")
-		public Object[][] getFeatures()
+		@DataProvider /*(name="features") */
+		public Object[][] Features()
 		{
 			return testRunner.provideFeatures();
 		}

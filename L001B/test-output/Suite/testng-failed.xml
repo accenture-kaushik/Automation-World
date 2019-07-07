@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Login">
     <classes>
       <class name="com.runnerclass.TestNG_Cucumber_Runner"/>
@@ -16,4 +16,4 @@
       </class> <!-- com.runnerclass.TestNG_Cucumber_Runner -->
     </classes>
   </test> <!-- Login(failed) -->
-</suite> <!-- Failed suite [BDD Test Suite] -->
+</suite> <!-- Failed suite [Suite] -->
