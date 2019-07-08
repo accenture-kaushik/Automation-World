@@ -27,7 +27,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.TestContext;
+//import cucumber.TestContext;
 
 public class SimpleStepDef_Reporting extends TestBase{	
 	
@@ -65,7 +65,7 @@ public class SimpleStepDef_Reporting extends TestBase{
 	public void validate_that_google_is_launch_correct() throws Throwable {
 	    
 		String PageTitle = driver.getTitle();
-		Assert.assertEquals(PageTitle, "Google");
+		Assert.assertEquals(PageTitle, "Google1");
 	
 	}
 	
@@ -78,13 +78,13 @@ public class SimpleStepDef_Reporting extends TestBase{
 	
 	@After(order = 1)
 	public void afterScenario(Scenario scenario) {
-		TestContext testContext;
+//		TestContext testContext;
 		if (scenario.isFailed()) {
 			String screenshotName = scenario.getName().replaceAll(" ", "_");
 			try {
 				//This takes a screenshot from the driver at save it to the specified location
-				File sourcePath = ((TakesScreenshot) testContext.getWebDriverManager().getDriver()).getScreenshotAs(OutputType.FILE);
-				
+//				File sourcePath = ((TakesScreenshot) testContext.getWebDriverManager().getDriver()).getScreenshotAs(OutputType.FILE);
+				File sourcePath = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 				//Building up the destination path for the screenshot to save
 				//Also make sure to create a folder 'screenshots' with in the cucumber-report folder
 				File destinationPath = new File(System.getProperty("user.dir") + "/target/cucumber-reports/screenshots/" + screenshotName + ".png");
