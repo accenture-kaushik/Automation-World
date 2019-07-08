@@ -7,7 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 329367,
+  "duration": 354520,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 5492740,
   "status": "passed"
 });
 formatter.scenario({
@@ -32,26 +36,30 @@ formatter.match({
   "location": "SimpleStepDef_Reporting.i_have_testing_report()"
 });
 formatter.result({
-  "duration": 141436197,
+  "duration": 167432434,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleStepDef_Reporting.i_have_to_print_custom_report()"
 });
 formatter.result({
-  "duration": 461122,
+  "duration": 845230,
   "status": "passed"
 });
 formatter.after({
-  "duration": 83331,
+  "duration": 65652,
   "status": "passed"
 });
 formatter.after({
-  "duration": 62799,
+  "duration": 63455,
   "status": "passed"
 });
 formatter.before({
-  "duration": 168218,
+  "duration": 107560,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 270117,
   "status": "passed"
 });
 formatter.scenario({
@@ -76,22 +84,22 @@ formatter.match({
   "location": "SimpleStepDef_Reporting.launch_Google()"
 });
 formatter.result({
-  "duration": 3824051783,
+  "duration": 3465688248,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleStepDef_Reporting.validate_that_google_is_launch_correct()"
 });
 formatter.result({
-  "duration": 10185566,
+  "duration": 7697784,
   "status": "passed"
 });
 formatter.after({
-  "duration": 107417,
+  "duration": 515966,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70057,
+  "duration": 188369,
   "status": "passed"
 });
 });

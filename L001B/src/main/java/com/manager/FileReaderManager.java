@@ -2,8 +2,6 @@ package com.manager;
 
 import com.application.utils.ConfigFileReader;
 
-//import dataProviders.ConfigFileReader;
-
 public class FileReaderManager {
 	
 	
@@ -18,6 +16,7 @@ public class FileReaderManager {
 		 }
 
 		 public ConfigFileReader getConfigReader() {
+			 
 			 return (configFileReader == null) ? new ConfigFileReader() : configFileReader;
 		 }
 	}

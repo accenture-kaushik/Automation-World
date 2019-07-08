@@ -42,6 +42,8 @@ public class RunnerClass {
 	@AfterClass
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getExtentReportConfigPath()));
+		Reporter.setSystemInfo("User Name: ", System.getProperty("user.name"));
+		Reporter.setSystemInfo("Machine", 	"Mac Pro");
 	}
 	
 }
