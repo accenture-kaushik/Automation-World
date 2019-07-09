@@ -1,12 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.648722">
-<testcase classname="This is a simple scenario used for reporting" name="Printing logs" time="0.174254">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.759083">
+<testcase classname="This is a simple scenario used for reporting" name="Printing logs" time="0.173393">
 <system-out><![CDATA[Given I have testing report.................................................passed
 Then I have to print custom report..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This is a simple scenario used for reporting" name="Launching google and taking screen shot" time="3.474468">
-<system-out><![CDATA[Given Launch Google.........................................................passed
-Then validate that google is launch correct.................................passed
-]]></system-out>
+<testcase classname="This is a simple scenario used for reporting" name="Launching google and taking screen shot" time="3.58569">
+<failure message="java.lang.AssertionError: expected [Google1] but found [Google]&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:135)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:116)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:190)&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:200)&#10;&#9;at com.stepdefinition.select.SimpleStepDef_Reporting.validate_that_google_is_launch_correct(SimpleStepDef_Reporting.java:68)&#10;&#9;at ✽.Then validate that google is launch correct(/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/Simple.feature:8)&#10;"><![CDATA[Given Launch Google.........................................................passed
+Then validate that google is launch correct.................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [Google1] but found [Google]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.stepdefinition.select.SimpleStepDef_Reporting.validate_that_google_is_launch_correct(SimpleStepDef_Reporting.java:68)
+	at ✽.Then validate that google is launch correct(/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/Simple.feature:8)
+]]></failure>
 </testcase>
 </testsuite>

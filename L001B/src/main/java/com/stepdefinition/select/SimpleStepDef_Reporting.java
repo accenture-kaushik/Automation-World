@@ -12,14 +12,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-
-
-
-import com.application.utils.Log;
+import com.application.utils.ELS_TestStatus;
 import com.application.utils.TestBase;
-//import com.aventstack.extentreports.gherkin.model.Scenario;
+
 import com.cucumber.listener.Reporter;
-import com.gargoylesoftware.htmlunit.javascript.host.file.FileReader;
+
 import com.google.common.io.Files;
 
 import cucumber.api.Scenario;
@@ -31,8 +28,8 @@ import cucumber.api.java.en.Then;
 
 public class SimpleStepDef_Reporting extends TestBase{	
 	
-//	Log log = new Log();
 	WebDriver driver;
+	private static ELS_TestStatus teststatus = new ELS_TestStatus();
 	
 	@Given("^I have testing report$")
 	public void i_have_testing_report() throws Throwable {
@@ -60,7 +57,7 @@ public class SimpleStepDef_Reporting extends TestBase{
 		Reporter.addStepLog(" Report Log: Launch Google!! Yay !!!  ");
 		
 	}
-
+	
 	@Then("^validate that google is launch correct$")
 	public void validate_that_google_is_launch_correct() throws Throwable {
 	    
@@ -69,10 +66,18 @@ public class SimpleStepDef_Reporting extends TestBase{
 	
 	}
 	
-	@Before
+	@Before(order=0)
 	public static void assignAuthor() {
 		Reporter.assignAuthor("	Kaushik Majumder ");
+		Scenario scenario = null;
+		teststatus.setScenario(scenario.getName());
 		
+		
+	}
+	
+	@Before(order=1)
+	public void startingTest() {
+//		this.teststatus = new ELS_TestStatus();		
 	}
 	
 	

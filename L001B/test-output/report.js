@@ -7,11 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 354520,
+  "duration": 323500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5492740,
+  "duration": 6078559,
   "status": "passed"
 });
 formatter.scenario({
@@ -36,30 +36,34 @@ formatter.match({
   "location": "SimpleStepDef_Reporting.i_have_testing_report()"
 });
 formatter.result({
-  "duration": 167432434,
+  "duration": 166175550,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleStepDef_Reporting.i_have_to_print_custom_report()"
 });
 formatter.result({
-  "duration": 845230,
+  "duration": 603427,
   "status": "passed"
 });
 formatter.after({
-  "duration": 65652,
+  "duration": 62028,
   "status": "passed"
 });
 formatter.after({
-  "duration": 63455,
+  "duration": 91768,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 58252,
   "status": "passed"
 });
 formatter.before({
-  "duration": 107560,
+  "duration": 196989,
   "status": "passed"
 });
 formatter.before({
-  "duration": 270117,
+  "duration": 246883,
   "status": "passed"
 });
 formatter.scenario({
@@ -84,22 +88,27 @@ formatter.match({
   "location": "SimpleStepDef_Reporting.launch_Google()"
 });
 formatter.result({
-  "duration": 3465688248,
+  "duration": 2985953387,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleStepDef_Reporting.validate_that_google_is_launch_correct()"
 });
 formatter.result({
-  "duration": 7697784,
+  "duration": 10688150,
+  "error_message": "java.lang.AssertionError: expected [Google1] but found [Google]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\n\tat org.testng.Assert.assertEquals(Assert.java:116)\n\tat org.testng.Assert.assertEquals(Assert.java:190)\n\tat org.testng.Assert.assertEquals(Assert.java:200)\n\tat com.stepdefinition.select.SimpleStepDef_Reporting.validate_that_google_is_launch_correct(SimpleStepDef_Reporting.java:68)\n\tat ✽.Then validate that google is launch correct(/Users/kaushikmajumder/git/Automation-World/L001B/src/main/java/com/feature/files/Simple.feature:8)\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 78749,
   "status": "passed"
 });
 formatter.after({
-  "duration": 515966,
+  "duration": 588453956,
   "status": "passed"
 });
 formatter.after({
-  "duration": 188369,
+  "duration": 71969,
   "status": "passed"
 });
 });
