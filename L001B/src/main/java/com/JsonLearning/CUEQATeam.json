@@ -1,0 +1,32 @@
+{ 
+   "QATeam":  
+	[
+	
+		{
+		"Name"       : "Kaushik",
+		"Skill"      : "SDET",
+		"Team"       : ["Umb", "CUE", "Transform"],
+		"Experience" : 12
+		},
+	    
+		
+		{
+		"Name"       : "Parikshit",
+		"Skill"      : "SDET",
+		"Team"       : ["CUE", "Transform"],
+		"Experience" : 5
+		},
+	    
+	    
+		{
+		"Name"       : "Namrata",
+		"Skill"      : "QA",
+		"Team"       : ["Prop"],
+		"Experience" : 7
+		}
+	]
+	
+}
+
+
+

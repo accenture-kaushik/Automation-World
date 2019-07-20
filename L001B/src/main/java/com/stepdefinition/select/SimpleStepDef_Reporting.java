@@ -63,17 +63,18 @@ public class SimpleStepDef_Reporting extends TestBase{
 	    
 		String PageTitle = driver.getTitle();
 		Assert.assertEquals(PageTitle, "Google1");
+		log.info("Driver : " + driver);
 	
 	}
 	
-	@Before(order=0)
-	public static void assignAuthor() {
-		Reporter.assignAuthor("	Kaushik Majumder ");
-		Scenario scenario = null;
-		teststatus.setScenario(scenario.getName());
-		
-		
-	}
+//	@Before(order=0)
+//	public static void assignAuthor() {
+//		Reporter.assignAuthor("	Kaushik Majumder ");
+//		Scenario scenario = null;
+//		teststatus.setScenario(scenario.getName());
+//		
+//		
+//	}
 	
 	@Before(order=1)
 	public void startingTest() {

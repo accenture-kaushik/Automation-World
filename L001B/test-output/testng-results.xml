@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5967" started-at="2019-06-21T04:43:23Z" finished-at="2019-06-21T04:43:29Z">
+  <suite name="Default suite" duration-ms="46" started-at="2019-07-17T15:55:02Z" finished-at="2019-07-17T15:55:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5967" started-at="2019-06-21T04:43:23Z" finished-at="2019-06-21T04:43:29Z">
-      <class name="com.stepdefinition.select.TabOffForAjaxCalls">
-        <test-method status="PASS" signature="tabOff()[pri:0, instance:com.stepdefinition.select.TabOffForAjaxCalls@4566e5bd]" name="tabOff" duration-ms="5935" started-at="2019-06-21T10:13:23Z" finished-at="2019-06-21T10:13:29Z">
+    <test name="Default test" duration-ms="46" started-at="2019-07-17T15:55:02Z" finished-at="2019-07-17T15:55:02Z">
+      <class name="com.JsonLearning.NodeTraverseInJSON">
+        <test-method status="PASS" signature="toJava()[pri:0, instance:com.JsonLearning.NodeTraverseInJSON@51b7e5df]" name="toJava" duration-ms="30" started-at="2019-07-17T21:25:02Z" finished-at="2019-07-17T21:25:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tabOff -->
-      </class> <!-- com.stepdefinition.select.TabOffForAjaxCalls -->
+        </test-method> <!-- toJava -->
+      </class> <!-- com.JsonLearning.NodeTraverseInJSON -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,8 @@
+{
+  "id" : 1,
+  "name" : "Kaushik",
+  "address" : {
+    "city" : "Faridabad",
+    "country" : "India"
+  }
+}
